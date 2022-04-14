@@ -5,6 +5,7 @@ export class WalkController{
     private walkBusiness: WalkBusiness
 
     constructor(){
+        
         this.walkBusiness = new WalkBusiness(new DogWalkDataBase)
     }
 

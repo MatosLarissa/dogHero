@@ -13,7 +13,6 @@ export class DogWalk {
         private status?: string,
         private startWalk?: number,
         private finishWalk?: number,
-
     ){}
 
     public getId(): string{

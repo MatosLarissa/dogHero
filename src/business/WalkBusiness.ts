@@ -4,6 +4,7 @@ import { WalkRepository } from "./WalkRepository";
 
 export class WalkBusiness{
 
+    
     constructor(
         private dogWalkDataBase: WalkRepository
     ){

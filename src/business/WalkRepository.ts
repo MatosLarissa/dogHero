@@ -1,5 +1,4 @@
 import { DogWalk } from "../model/DogWalk";
-
 export interface WalkRepository{
     createWalk(dogWalk: DogWalk): Promise<void>
     getElementById(id: string): Promise<DogWalk | null>
