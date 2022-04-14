@@ -10,6 +10,7 @@ export const app = express();
 app.use(express.json());
 app.use(cors())
 
+
 export const server = app.listen(process.env.PORT || 3333, () => {
   if (server) {
     const address = server.address() as AddressInfo;
