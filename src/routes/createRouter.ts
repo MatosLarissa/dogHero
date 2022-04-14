@@ -6,4 +6,4 @@ export const createRouter = express.Router()
 
 const createController = new CreateController()
 
-createRouter.post("/create", (request, response) => createController.createWalk(request, response))
+createRouter.post("/create", createController.createWalk)
