@@ -4,6 +4,7 @@ import { IdGenerator } from "../services/IdGenerator";
 import { WalkRepository } from "./WalkRepository";
 
 export class CreateBusiness {
+    
     constructor(
         private idGenerator: IdGenerator,
         private dogWalkDataBase: WalkRepository
