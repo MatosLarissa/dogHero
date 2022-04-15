@@ -7,9 +7,26 @@
 </p>
 <h2>⚛️ﾠSobre o Projeto Case!</h2>
 <p>Este Projeto Back-End foi desenvolvido durante o curso Full-Stack Web Developer na <a href="https://www.labenu.com.br/quem-somos" target="_blank">Labenu</a>, teve o foco no desenvolvimento da API que representa uma versão simplificada de um sistema de passeios. As tabelas foram criadas no MySQL e todo o desenvolvimento da aplicação foi realizado em TypeScript.
-
+  
 Desafio proposto:
 https://github.com/doghero/test-backend/wiki/Test-Case
+  
+#### URL base: https://projeto-case-4.herokuapp.com/
+#### Crie um arquivo .env na raiz do projeto e preencha as seguintes chaves com os valores apropriados:
+   ```
+    PORT =
+    DB_PORT =
+    DB_HOST = 
+    DB_USER = 
+    DB_PASSWORD = 
+    DB_SCHEMA = 
+    JWT_KEY = 
+    ACCESS_TOKEN_EXPIRES_IN = 
+    BCRYPT_COST = 
+
+   ```
+
+
 </p><br/>
 <br/>
 <br/>
