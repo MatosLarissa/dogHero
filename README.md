@@ -12,19 +12,7 @@ Desafio proposto:
 https://github.com/doghero/test-backend/wiki/Test-Case
   
 #### URL base: https://projeto-case-4.herokuapp.com/
-#### Crie um arquivo .env na raiz do projeto e preencha as seguintes chaves com os valores apropriados:
-   ```
-    PORT =
-    DB_PORT =
-    DB_HOST = 
-    DB_USER = 
-    DB_PASSWORD = 
-    DB_SCHEMA = 
-    JWT_KEY = 
-    ACCESS_TOKEN_EXPIRES_IN = 
-    BCRYPT_COST = 
 
-   ```
 
 
 </p><br/>
@@ -77,6 +65,8 @@ Além disso, é bom ter uma IDE para trabalhar com o código. Eu recomendo o <a 
   
   <br/>
  <h2> 🚀ﾠRodando o projeto </h2>
+  
+  
 
 ```bash
 # Clone este repositório
@@ -93,6 +83,20 @@ $ cd ./dogHero/src
 $ npm run dev
 # O servidor iniciará na porta:3000 - acesse <http://localhost:3003>
 ```
+  
+  #### Crie um arquivo .env na raiz do projeto e preencha as seguintes chaves com os valores apropriados:
+   ```
+    PORT =
+    DB_PORT =
+    DB_HOST = 
+    DB_USER = 
+    DB_PASSWORD = 
+    DB_SCHEMA = 
+    JWT_KEY = 
+    ACCESS_TOKEN_EXPIRES_IN = 
+    BCRYPT_COST = 
+
+   ```
 <br/>
   
 <h2>🧑‍💻ﾠDesenvolvedores</h2>
